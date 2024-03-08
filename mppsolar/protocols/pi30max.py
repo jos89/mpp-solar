@@ -1126,6 +1126,6 @@ class pi30max(pi30):
         for item in COMMANDS_TO_REMOVE:
             self.COMMANDS.pop(item, None)
         self.STATUS_COMMANDS = ["QPIGS", "QPIGS2"]
-        self.SETTINGS_COMMANDS = ["QPIRI", "QFLAG"]
+        self.SETTINGS_COMMANDS = ["QPIRI", "QFLAG", "QPIGS", "QPIGS2", "QMOD"]
         self.DEFAULT_COMMAND = "QPI"
         log.info(f"Using protocol {self._protocol_id} with {len(self.COMMANDS)} commands")
